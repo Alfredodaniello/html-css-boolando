@@ -11,7 +11,11 @@
 /*------------s
     HEADER
 ------------*/
-
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+}
 ul {
     list-style: none;
     font-size: 15px;
@@ -36,9 +40,19 @@ i {
     padding-right: 0px;
 }
 
+.fa-user {
+    padding-right: 0px;
+}
+
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: #ff6900;
     min-height: 70px;
+    z-index: 20;
+    margin-bottom: ;
 }
 
 .icons {
@@ -64,6 +78,7 @@ header > .container {
     display: flex;
     line-height: 70px;
     justify-content: space-between;
+    mar
 }
 
 .contenitore {
@@ -76,17 +91,18 @@ header > .container {
 ------------*/
 
 .row {
-    padding-top: 50px;
-    margin: auto;
+    margin-top: 110px;
     display: flex;
     max-width: 1200px;
     justify-content: space-around;
+    margin-bottom: -50px;
 }
 
 .col-33 {
     position: relative;
     width: 390px;
     background-color: #e8e8e8;
+    height: 615px;
 }
 
 main img {
@@ -149,6 +165,10 @@ main img {
     margin-bottom: 50px;
 }
 
+/*------------s
+    HOVER
+------------*/
+
 .img-hover {
     display: none;
 }
@@ -159,4 +179,43 @@ main img {
 
 .col-33:hover .img-default {
     display: none;
+}
+
+/*------------s
+    FOOTER
+------------*/
+
+footer {
+    color: white;
+    min-height: 110px;
+    background-color: #1a1a1a;
+}
+
+.footer-div {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 35px;
+}
+
+#first {
+    margin-left: -10px;
+}
+
+footer i {
+    color: white;
+    padding: 8px;
+}
+
+#ultimo {
+    margin-left: 20px;
+}
+
+footer ul {
+    font-size: 10px;
+}
+
+.symbol-list {
+    margin-top: -5px;
 }
