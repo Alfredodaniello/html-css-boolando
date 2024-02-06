@@ -37,7 +37,6 @@ i {
 }
 
 header {
-    position: fixed;
     background-color: #ff6900;
     min-height: 70px;
 }
