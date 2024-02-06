@@ -66,3 +66,40 @@ header > .container {
     justify-content: space-between;
 }
 
+.contenitore {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    margin: auto;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.col-33 {
+    width: 390px;
+    background-color: #e8e8e8;
+}
+
+main img {
+    width: 100%;
+}
+
+.col-33 div, h5 {
+    background-color: white;
+}
+
+.span-2 {
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.span-red {
+    color: red;
+}
+
+
+
