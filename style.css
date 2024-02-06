@@ -36,9 +36,8 @@ i {
     padding-right: 0px;
 }
 
-
-
 header {
+    position: fixed;
     background-color: #ff6900;
     min-height: 70px;
 }
@@ -67,3 +66,4 @@ header > .container {
     line-height: 70px;
     justify-content: space-between;
 }
+
