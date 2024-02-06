@@ -71,15 +71,20 @@ header > .container {
     justify-content: space-around;
 }
 
+/*------------s
+    MAIN
+------------*/
+
 .row {
+    padding-top: 50px;
     margin: auto;
     display: flex;
     max-width: 1200px;
     justify-content: space-around;
-    margin-bottom: 50px;
 }
 
 .col-33 {
+    position: relative;
     width: 390px;
     background-color: #e8e8e8;
 }
@@ -101,5 +106,57 @@ main img {
     color: red;
 }
 
+/*------------s
+    BANNER
+------------*/
 
+.banner {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+}
 
+.col-33 .banner-red {
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.col-33 .banner-sost {
+    background-color: #008000;
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+}
+
+#last {
+    position: absolute;
+    left: 0;
+}
+
+.cuore {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.fa-heart {
+    padding: 13px 10px;
+}
+
+.bottom-row {
+    margin-bottom: 50px;
+}
+
+.img-hover {
+    display: none;
+}
+
+.col-33:hover .img-hover {
+    display: block;
+}
+
+.col-33:hover .img-default {
+    display: none;
+}
